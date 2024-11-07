@@ -2,9 +2,9 @@ import random
 import time
 from paho.mqtt import client as mqtt_client
 
-broker = 'broker.hivemq.com'
+broker = ''
 port = 1883
-topic = 'Equipo36'
+topic = ''
 client_id = f'publish-{random.randint(0,1000)}'
 username = ''
 password = ''
